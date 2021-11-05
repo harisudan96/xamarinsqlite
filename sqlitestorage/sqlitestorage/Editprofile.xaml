@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="sqlitestorage.Editprofile">
+    <ContentPage.Content>
+        <ScrollView>
+        <AbsoluteLayout Margin="5,0,5,5">
+            <FlexLayout IsVisible="True" JustifyContent="SpaceEvenly" Direction="Column" AlignItems="Center" Margin="5,0,5,0" >
+                <Label Text="Email" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Gray" ></Label>
+                <Label x:Name="emailEntry" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" ></Label>
+                <BoxView Color="Gray" HeightRequest="1" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  />
+                <Label Text="DOB" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Gray" ></Label>
+                <Label x:Name="DateOfBirth" Text="DateOfBirth" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  FontSize="20" TextColor="Black" ></Label>
+
+                <BoxView Color="Gray" HeightRequest="1" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  />
+                <Label x:Name="IdLabel" FontSize="20" TextColor="Blue"   IsVisible="false"/>
+                <Label x:Name="MainLabel" FontSize="20" TextColor="Blue"   IsVisible="false"/>
+                <Label Text="Username" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Gray" ></Label>
+               
+                <Label x:Name="userNameEntry"  FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+                <BoxView Color="Gray" HeightRequest="1" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  />
+                <Label Text="Password" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Gray" ></Label>
+                <Entry x:Name="passwordEntry" ReturnType="Next" MaxLength="12" IsPassword="True" Placeholder="Password" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+                <Label Text="Confirmpassword" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Gray" ></Label>
+                <Entry x:Name="confirmpasswordEntry" ReturnType="Next" MaxLength="12" IsPassword="True" Placeholder="Confirm Password" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+                <Label x:Name="warningLabel" Text="" IsVisible="False" TextColor="Blue" FontSize="15" BackgroundColor="Transparent" FlexLayout.AlignSelf="End"/>
+                <Label Text="Phone number" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Gray" ></Label>
+                <Entry x:Name="phoneEntry" ReturnType="Done" MaxLength="10" Keyboard="Telephone" Placeholder="Phone No" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" >
+
+                </Entry>
+                <Button x:Name="Update" Clicked="Update_Clicked" FontSize="Medium" TextColor="White" BorderColor="Black" BackgroundColor="#00b33c"  CornerRadius="5" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand" Text="Update Profile"/>
+
+
+            </FlexLayout>
+        </AbsoluteLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

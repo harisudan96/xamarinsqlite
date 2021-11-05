@@ -1,0 +1,17 @@
+C:\Users\hp\Desktop\sqlitestorage\sqlitestorage\sqlitestorage\obj\Debug\netstandard2.0\sqlitestorage.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\sqlitestorage\sqlitestorage\sqlitestorage\obj\Debug\netstandard2.0\sqlitestorage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\sqlitestorage\sqlitestorage\sqlitestorage\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\hp\Desktop\sqlitestorage\sqlitestorage\sqlitestorage\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\hp\Desktop\sqlitestorage\sqlitestorage\sqlitestorage\obj\Debug\netstandard2.0\sqlitestorage.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\sqlitestorage\sqlitestorage\sqlitestorage\obj\Debug\netstandard2.0\sqlitestorage.AssemblyInfo.cs
+C:\Users\hp\Desktop\sqlitestorage\sqlitestorage\sqlitestorage\obj\Debug\netstandard2.0\sqlitestorage.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\sqlitestorage\sqlitestorage\sqlitestorage\bin\Debug\netstandard2.0\sqlitestorage.deps.json
+C:\Users\hp\Desktop\sqlitestorage\sqlitestorage\sqlitestorage\bin\Debug\netstandard2.0\sqlitestorage.dll
+C:\Users\hp\Desktop\sqlitestorage\sqlitestorage\sqlitestorage\bin\Debug\netstandard2.0\ref\sqlitestorage.dll
+C:\Users\hp\Desktop\sqlitestorage\sqlitestorage\sqlitestorage\bin\Debug\netstandard2.0\sqlitestorage.pdb
+C:\Users\hp\Desktop\sqlitestorage\sqlitestorage\sqlitestorage\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\hp\Desktop\sqlitestorage\sqlitestorage\sqlitestorage\obj\Debug\netstandard2.0\sqlitestorage.dll
+C:\Users\hp\Desktop\sqlitestorage\sqlitestorage\sqlitestorage\obj\Debug\netstandard2.0\ref\sqlitestorage.dll
+C:\Users\hp\Desktop\sqlitestorage\sqlitestorage\sqlitestorage\obj\Debug\netstandard2.0\sqlitestorage.pdb
+C:\Users\hp\Desktop\sqlitestorage\sqlitestorage\sqlitestorage\obj\Debug\netstandard2.0\Signup.xaml.g.cs
+C:\Users\hp\Desktop\sqlitestorage\sqlitestorage\sqlitestorage\obj\Debug\netstandard2.0\Editprofile.xaml.g.cs

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              NavigationPage.HasNavigationBar="false"
+             x:Class="sqlitestorage.Signup">
+    <ContentPage.Content>
+        <AbsoluteLayout Margin="5,0,5,5">
+            <FlexLayout IsVisible="True" JustifyContent="SpaceEvenly" Direction="Column" AlignItems="Center" Margin="5,0,5,0" >
+                <Entry x:Name="PersonalID" Placeholder="Personal ID" ReturnType="Next" Keyboard="Numeric" FontSize="Medium" FlexLayout.AlignSelf="Stretch" MaxLength="12"  HorizontalOptions="CenterAndExpand"  TextColor="Black" >
+
+                </Entry>
+                <Entry x:Name="emailEntry" Placeholder="Email ID" ReturnType="Next" Keyboard="Email" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" >
+                   
+                </Entry>
+                <Label Text="Date Of Birth" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Gray" ></Label>
+                <DatePicker x:Name="MainDatePicker" MinimumDate="1/1/2018" MaximumDate="12/31/2020" DateSelected="MainDatePicker_DateSelected" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+                <Label x:Name="MainLabel" FontSize="20" TextColor="Blue"   IsVisible="false"/>
+                <Entry x:Name="userNameEntry" ReturnType="Next" MaxLength="10" Placeholder="User Name" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" Keyboard="Text" />
+                <Entry x:Name="passwordEntry" ReturnType="Next" MaxLength="12" IsPassword="True" Placeholder="Password" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+                <Entry x:Name="confirmpasswordEntry" ReturnType="Next" MaxLength="12" IsPassword="True" Placeholder="Confirm Password" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+                <Label x:Name="warningLabel" Text="" IsVisible="False" TextColor="Blue" FontSize="15" BackgroundColor="Transparent" FlexLayout.AlignSelf="End"/>
+                <Entry x:Name="phoneEntry" ReturnType="Done" MaxLength="10" Keyboard="Telephone" Placeholder="Phone No" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" >
+                  
+                </Entry>
+             
+                <Button x:Name="signUp" Clicked="signUp_Clicked" FontSize="Medium" TextColor="White" BorderColor="Black" BackgroundColor="#00b33c"  CornerRadius="5" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand" Text="Sign Up"/>
+             
+            </FlexLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
